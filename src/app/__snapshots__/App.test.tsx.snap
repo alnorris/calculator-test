@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Add 2+2 1`] = `
+<App>
+  <styled.div>
+    <div
+      className="sc-AxhUy iLDogk"
+    >
+      <styled.div>
+        <div
+          className="sc-AxhCb iveHrx"
+        >
+          0
+        </div>
+      </styled.div>
+      <ButtonGrid
+        onChange={[Function]}
+      >
+        <styled.div
+          onClick={[Function]}
+        >
+          <div
+            className="sc-AxiKw jCymji"
+            onClick={[Function]}
+          >
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                C
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                -/+
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                %
+              </button>
+            </styled.button>
+            <styled.button
+              isOperator={true}
+            >
+              <button
+                className="sc-AxjAm ighVHx"
+              >
+                /
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                9
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                8
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                7
+              </button>
+            </styled.button>
+            <styled.button
+              isOperator={true}
+            >
+              <button
+                className="sc-AxjAm ighVHx"
+              >
+                x
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                6
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                5
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                4
+              </button>
+            </styled.button>
+            <styled.button
+              isOperator={true}
+            >
+              <button
+                className="sc-AxjAm ighVHx"
+              >
+                -
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                3
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                2
+              </button>
+            </styled.button>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                1
+              </button>
+            </styled.button>
+            <styled.button
+              isOperator={true}
+            >
+              <button
+                className="sc-AxjAm ighVHx"
+              >
+                +
+              </button>
+            </styled.button>
+            <Styled(styled.button)>
+              <button
+                className="sc-AxjAm sc-AxirZ ePprjk"
+              >
+                0
+              </button>
+            </Styled(styled.button)>
+            <styled.button>
+              <button
+                className="sc-AxjAm kVIsjG"
+              >
+                .
+              </button>
+            </styled.button>
+            <styled.button
+              isOperator={true}
+            >
+              <button
+                className="sc-AxjAm ighVHx"
+              >
+                =
+              </button>
+            </styled.button>
+          </div>
+        </styled.div>
+      </ButtonGrid>
+    </div>
+  </styled.div>
+</App>
+`;
+
+exports[`App App should render 1`] = `
+<styled.div>
+  <styled.div>
+    0
+  </styled.div>
+  <ButtonGrid
+    onChange={[Function]}
+  />
+</styled.div>
+`;
