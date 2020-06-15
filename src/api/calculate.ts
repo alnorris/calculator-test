@@ -1,9 +1,11 @@
 import axios from './axios'
+import { OperatorType } from '../modules/types'
+
 
 interface ICalculate {
-  operator: string
-  leftOperand: string
-  rightOperand: string
+  operator: OperatorType
+  leftOperand: number | string
+  rightOperand: number | string
 }
 
 export default (params: ICalculate): Promise<number> => (

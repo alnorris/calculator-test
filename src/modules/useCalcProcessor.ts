@@ -1,11 +1,12 @@
 import React from 'react'
 import calculateApi from '../api/calculate'
+import { OperatorType } from './types'
 
 const useCalcProcessor = () => {
   const [numDisplayVal, setNumDisplayVal] = React.useState<string>('0')
-  const [value, setValue] = React.useState(null)
+  const [value, setValue] = React.useState<number>(null)
   const [waitingForOperand, setWaitingForOperand] = React.useState(false)
-  const [currOperator, setCurrOperator] = React.useState(null)
+  const [currOperator, setCurrOperator] = React.useState<OperatorType>(null)
 
   const inputDigit = (digit) => {
     
@@ -21,7 +22,7 @@ const useCalcProcessor = () => {
     setNumDisplayVal('0')
   }
 
-  const operatorInput = async (operator: string) => {
+  const operatorInput = async (operator: OperatorType) => {
     const inputValue = parseFloat(numDisplayVal)
 
     if(currOperator === '/' && inputValue === 0) {
@@ -84,7 +85,7 @@ const useCalcProcessor = () => {
       case '/':
       case 'x':
       case '=':
-        operatorInput(input)
+        operatorInput(input as OperatorType)
         break;
       case '-/+':
         switchSign()
