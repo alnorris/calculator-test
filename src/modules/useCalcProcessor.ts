@@ -17,16 +17,12 @@ const useCalcProcessor = () => {
     }
   }
 
-
   const clearInput = () => {
     setNumDisplayVal('0')
   }
 
   const operatorInput = async (operator: string) => {
     const inputValue = parseFloat(numDisplayVal)
-
-
-    console.log(operator, inputValue)
 
     if(currOperator === '/' && inputValue === 0) {
       setNumDisplayVal('Not a number')
