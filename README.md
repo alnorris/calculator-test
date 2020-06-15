@@ -9,5 +9,5 @@ Please run
 - `npm run server` for server api
 
 
-##Tests
+## Tests
 - `npm test` to run tests (supertest and enzyme)
